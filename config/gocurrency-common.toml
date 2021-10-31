@@ -1,0 +1,5 @@
+
+["Currency Configuration"]
+	#Currency - defining the names and values of each currency item in the mod. NAME:VALUE, Value must be within 0.01 to 2147483647.99
+	currency = ["One Dollar:1.00", "Five Dollars:5.00", "Ten Dollars:10.00", "Twenty Dollars:20.00", "Fifty Dollars:50.00", "One Hundred Dollars:100.00"]
+
