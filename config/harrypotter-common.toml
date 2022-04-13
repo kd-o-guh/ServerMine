@@ -1,0 +1,56 @@
+
+[general]
+
+	#Spawn settings
+	[general.spawnrate]
+		#Hotbar placeholder
+		hotbar = "0;0;0;0;0;0;0;0;0"
+		#
+		#Biome name where the Death Eaters should spawn - leave it blank if it should spawn everywhere!
+		biome_name_1 = ""
+		#
+		#Biome name where the Trolls should spawn
+		biome_name_2 = "minecraft:swamp"
+		#
+		#Biome name where the Dementors should spawn
+		biome_name_3 = ""
+		#Spawn chance from killing villagers, golems or dementors.
+		#Range: 0.0 ~ 1.0
+		chance = 0.05
+
+		#Death Eater
+		[general.spawnrate."death eater"]
+			#Spawn Chance
+			#Range: > 0
+			weight = 5
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Troll
+		[general.spawnrate.troll]
+			#Spawn Chance
+			#Range: > 0
+			weight = 10
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 1
+
+		#Dementor
+		[general.spawnrate.dementor]
+			#Spawn Chance
+			#Range: > 0
+			weight = 0
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 0
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 0
+
