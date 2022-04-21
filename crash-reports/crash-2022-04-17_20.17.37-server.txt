@@ -1,0 +1,238 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 4/17/22, 8:17 PM
+Description: Ticking entity
+
+java.lang.NoSuchFieldError: f_13088_
+	at top.theillusivec4.comforts.common.block.ComfortsBaseBlock.m_5707_(ComfortsBaseBlock.java:278) ~[Comforts-Mod-1.18.2.jar%2355!/:task ':jar' property 'archiveVersion'] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeBlock.onDestroyedByPlayer(IForgeBlock.java:165) ~[forge-1.18.2-40.0.46-universal.jar%23132!/:?] {re:mixin,re:classloading}
+	at net.minecraftforge.common.extensions.IForgeBlockState.onDestroyedByPlayer(IForgeBlockState.java:124) ~[forge-1.18.2-40.0.46-universal.jar%23132!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerPlayerGameMode.removeBlock(ServerPlayerGameMode.java:277) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:260) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7712_(ServerPlayerGameMode.java:95) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayer.m_8119_(ServerPlayer.java:401) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at top.theillusivec4.comforts.common.block.ComfortsBaseBlock.m_5707_(ComfortsBaseBlock.java:278) ~[Comforts-Mod-1.18.2.jar%2355!/:task ':jar' property 'archiveVersion'] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeBlock.onDestroyedByPlayer(IForgeBlock.java:165) ~[forge-1.18.2-40.0.46-universal.jar%23132!/:?] {re:mixin,re:classloading}
+	at net.minecraftforge.common.extensions.IForgeBlockState.onDestroyedByPlayer(IForgeBlockState.java:124) ~[forge-1.18.2-40.0.46-universal.jar%23132!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerPlayerGameMode.removeBlock(ServerPlayerGameMode.java:277) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayerGameMode.m_9280_(ServerPlayerGameMode.java:260) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7712_(ServerPlayerGameMode.java:95) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:backpacked.mixins.json:common.PlayerInteractionManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerPlayer.m_8119_(ServerPlayer.java:401) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 4156
+	Entity Name: Ferdnand21
+	Entity's Exact location: -329.00, 99.00, -243.43
+	Entity's Block location: World: (-330,99,-244), Section: (at 6,3,12 in -21,6,-16; chunk contains blocks -336,-64,-256 to -321,319,-241), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:486) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 4 total; [ServerPlayer['Vilzyn'/1480, l='ServerLevel[world]', x=-521.68, y=42.00, z=-1104.31], ServerPlayer['Ferdnand21'/4156, l='ServerLevel[world]', x=-329.00, y=99.00, z=-243.43], ServerPlayer['MrPrecher'/5167, l='ServerLevel[world]', x=-581.36, y=74.00, z=-1069.21], ServerPlayer['IgaoBr7'/5168, l='ServerLevel[world]', x=-467.05, y=62.77, z=-1123.14]]
+	Chunk stats: 5991
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-176,67,-208), Section: (at 0,3,0 in -11,4,-13; chunk contains blocks -176,-64,-208 to -161,319,-193), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Level time: 5099557 game time, 5450967 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 31254 (now: false), thunder time: 70017 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23128!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:elementalcraft.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (aarch64) version 5.13.0-1018-oracle
+	Java Version: 17.0.2, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 2084161352 bytes (1987 MiB) / 4836032512 bytes (4612 MiB) up to 6291456000 bytes (6000 MiB)
+	CPUs: 4
+	Processor Vendor: aarch64
+	Processor Name: 
+	Identifier: aarch64 Family 8 Model 0xd0c Stepping r0x3p1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 4
+	Graphics card #0 name: Virtio GPU
+	Graphics card #0 vendor: Red Hat, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: version: 01
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): -0.00
+	Memory slot #1 type: RAM
+	Virtual memory max (MB): 11997.63
+	Virtual memory used (MB): 6021.11
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 4 / 20; [ServerPlayer['Vilzyn'/1480, l='ServerLevel[world]', x=-521.68, y=42.00, z=-1104.31], ServerPlayer['Ferdnand21'/4156, l='ServerLevel[world]', x=-329.00, y=99.00, z=-243.43], ServerPlayer['MrPrecher'/5167, l='ServerLevel[world]', x=-581.36, y=74.00, z=-1069.21], ServerPlayer['IgaoBr7'/5168, l='ServerLevel[world]', x=-467.05, y=62.77, z=-1123.14]]
+	Data Packs: vanilla, mod:extraarmor (incompatible), mod:treechop (incompatible), mod:humancompanions (incompatible), mod:xtraarrows (incompatible), mod:cucumber, mod:awesomedungeonend, mod:shrines, mod:customskinloader (incompatible), mod:jei (incompatible), mod:ae2 (incompatible), mod:libraryferret, mod:mekanism, mod:mcwwindows, mod:incendium, mod:waystones (incompatible), mod:villagernames, mod:journeymap, mod:awesomedungeon, mod:placebo (incompatible), mod:comforts (incompatible), mod:moreminecarts (incompatible), mod:mcjtylib (incompatible), mod:rftoolsbase (incompatible), mod:xnet (incompatible), mod:mcwdoors, mod:mahoutsukai, mod:bygonenether (incompatible), mod:orcz, mod:mekanismgenerators, mod:balm (incompatible), mod:terralith, mod:blueprint (incompatible), mod:beyond_earth (incompatible), mod:rftoolspower (incompatible), mod:extradisks, mod:forge (incompatible), mod:itank (incompatible), mod:shetiphiancore, mod:refinedstorage, mod:selene (incompatible), mod:mysticalagriculture, mod:mysticalagradditions, mod:equipmentcompare (incompatible), mod:mcwbridges, mod:rftoolsutility (incompatible), mod:terrablender (incompatible), mod:endertanks, mod:immersiveengineering, mod:silentlib, mod:biomesoplenty (incompatible), mod:mekanismadditions, mod:snowyspirit (incompatible), mod:mcwfences, mod:silentgear (incompatible), mod:wthit (incompatible), mod:rftoolsbuilder (incompatible), mod:iceberg (incompatible), mod:dpanvil (incompatible), mod:curios (incompatible), mod:patchouli (incompatible), mod:elementalcraft (incompatible), mod:brutalbosses (incompatible), mod:rftoolsstorage (incompatible), mod:gravestone (incompatible), mod:collective, mod:advancednetherite, mod:enderchests, mod:backpacked (incompatible), mod:elevatorid, mod:mekanismtools, mod:fastfurnace (incompatible), mod:neoncraft2, mod:inventoryprofilesnext (incompatible), mod:betterfurnacesreforged, mod:architectury (incompatible), mod:engineersdecor (incompatible), mod:occultism, mod:puzzleslib (incompatible), mod:harrypotter (incompatible), mod:fallingtree, mod:refinedstorageaddons, mod:chiselsandbits (incompatible), mod:geckolib3 (incompatible), mod:enchantinginfuser (incompatible), mod:cobbled_paths (incompatible), Snowyspirit Virtual Resourcepack, mod:flywheel (incompatible), mod:create
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+	Mod List: 
+		ExtraArmor+-+1.18.1+-+1.14.2.jar                  |Extra Armor                   |extraarmor                    |1.18-1.14.2         |DONE      |Manifest: NOSIGNATURE
+		TreeChop-1.18.2-0.15.7.jar                        |HT's TreeChop                 |treechop                      |0.15.7              |DONE      |Manifest: NOSIGNATURE
+		humancompanions-1.18.2-1.4.4.jar                  |Human Companions              |humancompanions               |1.18.2-1.4.4        |DONE      |Manifest: NOSIGNATURE
+		Xtra+Arrows+Forge+MC1.18+v1.8.1.jar               |Xtra Arrows                   |xtraarrows                    |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		Cucumber-1.18.2-5.1.0.jar                         |Cucumber Library              |cucumber                      |5.1.0               |DONE      |Manifest: NOSIGNATURE
+		AwesomeDungeonEnd-Forge-1.18.2-1.0.1.jar          |Awesome Dungeon End           |awesomedungeonend             |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		Shrines-1.18.2-4.0.0-alpha2.jar                   |Shrines                       |shrines                       |1.18.2-4.0.0-alpha2 |DONE      |Manifest: NOSIGNATURE
+		Custom-Skin-Loader-Mod-1.18.2.jar                 |CustomSkinLoader              |customskinloader              |14.14-SNAPSHOT-321  |DONE      |Manifest: 4a:31:8b:cf:34:eb:d0:13:f3:19:39:d5:d2:b9:12:78:b5:f2:8d:91:3e:6f:8f:ed:97:48:00:69:e1:30:3a:54
+		jei-1.18.2-9.7.0.180.jar                          |Just Enough Items             |jei                           |9.7.0.180           |DONE      |Manifest: NOSIGNATURE
+		Applied-Energistics-2-Mod-1.18.2.jar              |Applied Energistics 2         |ae2                           |11.0.0-alpha.3      |DONE      |Manifest: NOSIGNATURE
+		LibraryFerret-Forge-1.18.2-1.0.3.jar              |Library ferret                |libraryferret                 |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		Mekanism-Mod-Core-1.18.2.jar                      |Mekanism                      |mekanism                      |10.2.0              |DONE      |Manifest: NOSIGNATURE
+		mcw-windows-2.0.3-mc1.18.2.jar                    |Macaw's Windows               |mcwwindows                    |2.0.3               |DONE      |Manifest: NOSIGNATURE
+		Incendium_v5.0.3.jar                              |Incendium                     |incendium                     |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		waystones-forge-1.18.2-10.0.0.jar                 |Waystones                     |waystones                     |10.0.0              |DONE      |Manifest: NOSIGNATURE
+		Villager-Names-Mod-1.18.2.jar                     |Villager Names                |villagernames                 |3.5                 |DONE      |Manifest: NOSIGNATURE
+		journeymap-1.18.2-5.8.0.jar                       |Journeymap                    |journeymap                    |5.8.0               |DONE      |Manifest: NOSIGNATURE
+		awesomedungeon-2.0.8.jar                          |Awesome Dungeon               |awesomedungeon                |2.0.8               |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.18.2-6.2.1.jar                          |Placebo                       |placebo                       |6.2.1               |DONE      |Manifest: NOSIGNATURE
+		Comforts-Mod-1.18.2.jar                           |Comforts                      |comforts                      |1.18.1-5.0.0.2      |DONE      |Manifest: NOSIGNATURE
+		moreminecarts-1.4.5.jar                           |More Minecarts                |moreminecarts                 |1.4.5               |DONE      |Manifest: NOSIGNATURE
+		mcjtylib-1.18-6.0.12.jar                          |McJtyLib                      |mcjtylib                      |1.18-6.0.12         |DONE      |Manifest: NOSIGNATURE
+		rftoolsbase-1.18-3.0.7.jar                        |RFToolsBase                   |rftoolsbase                   |1.18-3.0.7          |DONE      |Manifest: NOSIGNATURE
+		xnet-1.18-4.0.5.jar                               |XNet                          |xnet                          |1.18-4.0.5          |DONE      |Manifest: NOSIGNATURE
+		mcw-doors-1.0.6-mc1.18.2.jar                      |Macaw's Doors                 |mcwdoors                      |1.0.6               |DONE      |Manifest: NOSIGNATURE
+		mahoutsukai-1.18.2-v1.34.10.jar                   |Mahou Tsukai                  |mahoutsukai                   |1.18.2-v1.34.10     |DONE      |Manifest: NOSIGNATURE
+		bygonenether-1.1.1-1.18.2.jar                     |Bygone Nether                 |bygonenether                  |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		Orcz+0.65+1.18.2+Hotfix.jar                       |Orcz                          |orcz                          |0.50                |DONE      |Manifest: NOSIGNATURE
+		Mekanism-Mod-Generators-1.18.2.jar                |Mekanism: Generators          |mekanismgenerators            |10.2.0              |DONE      |Manifest: NOSIGNATURE
+		balm-3.0.2+0.jar                                  |Balm                          |balm                          |3.0.2+0             |DONE      |Manifest: NOSIGNATURE
+		Terralith_v2.2.1a.jar                             |Terralith                     |terralith                     |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		Abnormals-Core-Mod-1.18.2.jar                     |Blueprint                     |blueprint                     |5.3.1               |DONE      |Manifest: NOSIGNATURE
+		Beyond-Earth-1.18.2-6.0k.jar                      |Beyond Earth                  |beyond_earth                  |6.0k                |DONE      |Manifest: NOSIGNATURE
+		rftoolspower-1.18-4.0.4.jar                       |RFToolsPower                  |rftoolspower                  |1.18-4.0.4          |DONE      |Manifest: NOSIGNATURE
+		Extra-Disks-Mod-1.18.2.jar                        |Extra Disks                   |extradisks                    |1.18.2-2.1.0        |DONE      |Manifest: NOSIGNATURE
+		forge-1.18.2-40.0.46-universal.jar                |Forge                         |forge                         |40.0.46             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		ITank-Mod-1.18.2.jar                              |ITank                         |itank                         |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		shetiphiancore-1.18-3.10.8.jar                    |ShetiPhian-Core               |shetiphiancore                |3.10.8              |DONE      |Manifest: NOSIGNATURE
+		refinedstorage-1.10.2.jar                         |Refined Storage               |refinedstorage                |1.10.2              |DONE      |Manifest: NOSIGNATURE
+		selene-1.18.2-1.15.1.jar                          |Selene                        |selene                        |1.18.2-1.15.1       |DONE      |Manifest: NOSIGNATURE
+		MysticalAgriculture-1.18.2-5.1.0.jar              |Mystical Agriculture          |mysticalagriculture           |5.1.0               |DONE      |Manifest: NOSIGNATURE
+		MysticalAgradditions-1.18.2-5.1.1.jar             |Mystical Agradditions         |mysticalagradditions          |5.1.1               |DONE      |Manifest: NOSIGNATURE
+		EquipmentCompare-1.18.1-1.2.12.jar                |Equipment Compare             |equipmentcompare              |1.2.12              |DONE      |Manifest: NOSIGNATURE
+		server-1.18.2-20220404.173914-srg.jar             |Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: NOSIGNATURE
+		mcw-bridges-2.0.2-mc1.18.2.jar                    |Macaw's Bridges               |mcwbridges                    |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		rftoolsutility-1.18-4.0.12.jar                    |RFToolsUtility                |rftoolsutility                |1.18-4.0.12         |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.18.2-1.1.0.99.jar            |TerraBlender                  |terrablender                  |1.18.2-1.1.0.99     |DONE      |Manifest: NOSIGNATURE
+		Ender-Tanks-Mod-1.18.2.jar                        |EnderTanks                    |endertanks                    |1.11.5              |DONE      |Manifest: NOSIGNATURE
+		Immersive-Engineering-Mod-1.18.2.jar              |Immersive Engineering         |immersiveengineering          |1.18.2-8.0.0-146    |DONE      |Manifest: 44:39:94:cf:1d:8c:be:3c:7f:a9:ee:f4:1e:63:a5:ac:61:f9:c2:87:d5:5b:d9:d6:8c:b5:3e:96:5d:8e:3f:b7
+		silent-lib-1.18.2-6.2.0.jar                       |Silent Lib                    |silentlib                     |6.2.0               |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.18.2-16.0.0.107-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.18.2-16.0.0.107   |DONE      |Manifest: NOSIGNATURE
+		Mekanism-Mod-Additions-1.18.2.jar                 |Mekanism: Additions           |mekanismadditions             |10.2.0              |DONE      |Manifest: NOSIGNATURE
+		snowyspirit-1.18.2-1.2.1.jar                      |Snowy Spirit                  |snowyspirit                   |1.18.2-1.2.1        |DONE      |Manifest: NOSIGNATURE
+		Macaws-Fences-and-Walls-Mod-1.18.2.jar            |Macaw's Fences and Walls      |mcwfences                     |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		Silent-Gear-Mod-1.18.2.jar                        |Silent Gear                   |silentgear                    |2.10.0              |DONE      |Manifest: NOSIGNATURE
+		wthit-forge-4.8.1.jar                             |wthit                         |wthit                         |4.8.1               |DONE      |Manifest: NOSIGNATURE
+		rftoolsbuilder-1.18-4.0.8.jar                     |RFToolsBuilder                |rftoolsbuilder                |1.18-4.0.8          |DONE      |Manifest: NOSIGNATURE
+		Iceberg-1.18.2-1.0.40.jar                         |Iceberg                       |iceberg                       |1.0.40              |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.18-0.6.2.jar                     |Flywheel                      |flywheel                      |1.18-0.6.2          |DONE      |Manifest: NOSIGNATURE
+		create-mc1.18.2_v0.4.1.jar                        |Create                        |create                        |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		dpanvil-1.18.2-3.3.2c.jar                         |DataPack Anvil                |dpanvil                       |1.18.2-3.3.2c       |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.18.2-5.0.7.0.jar                   |Curios API                    |curios                        |1.18.2-5.0.7.0      |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.18.2-67.jar                           |Patchouli                     |patchouli                     |1.18.2-67           |DONE      |Manifest: NOSIGNATURE
+		elementalcraft-1.18.2-4.2.1b.jar                  |ElementalCraft                |elementalcraft                |1.18.2-4.2.1b       |DONE      |Manifest: NOSIGNATURE
+		brutalbosses-1.18.1-4.0.jar                       |brutalbosses mod              |brutalbosses                  |1.18.1-4.0          |DONE      |Manifest: NOSIGNATURE
+		rftoolsstorage-1.18-3.0.7.jar                     |RFToolsStorage                |rftoolsstorage                |1.18-3.0.7          |DONE      |Manifest: NOSIGNATURE
+		gravestone-1.18.2-1.0.1.jar                       |Gravestone Mod                |gravestone                    |1.18.2-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		collective-1.18.2-4.25.jar                        |Collective                    |collective                    |4.25                |DONE      |Manifest: NOSIGNATURE
+		advancednetherite-1.10.5-1.18.2.jar               |Advanced Netherite            |advancednetherite             |1.10.5              |DONE      |Manifest: NOSIGNATURE
+		EnderChests-Mod-1.18.2.jar                        |EnderChests                   |enderchests                   |1.9.4               |DONE      |Manifest: NOSIGNATURE
+		backpacked-2.1.5-1.18.2.jar                       |Backpacked                    |backpacked                    |2.1.5               |DONE      |Manifest: NOSIGNATURE
+		elevatorid-1.18.2-1.8.4.jar                       |Elevator Mod                  |elevatorid                    |1.18.2-1.8.4        |DONE      |Manifest: NOSIGNATURE
+		Mekanism-Mod-Tools-1.18.2.jar                     |Mekanism: Tools               |mekanismtools                 |10.2.0              |DONE      |Manifest: NOSIGNATURE
+		FastFurnace-Mod-1.18.2.jar                        |FastFurnace                   |fastfurnace                   |6.0.3               |DONE      |Manifest: NOSIGNATURE
+		neoncraft2-2.2.jar                                |Neon Craft 2                  |neoncraft2                    |2.2                 |DONE      |Manifest: NOSIGNATURE
+		InventoryProfilesNext-forge-1.18.2-1.3.5.jar      |Inventory Profiles Next       |inventoryprofilesnext         |1.3.5               |DONE      |Manifest: NOSIGNATURE
+		BetterFurnacesReforged-1.18.2-1.2.jar             |BetterFurnaces Reforged       |betterfurnacesreforged        |1.18.2-1.2          |DONE      |Manifest: NOSIGNATURE
+		architectury-4.1.44.jar                           |Architectury                  |architectury                  |4.1.44              |DONE      |Manifest: NOSIGNATURE
+		Engineers-Decor-Mod-1.18.2.jar                    |Engineer's Decor              |engineersdecor                |1.1.22-b1           |DONE      |Manifest: bf:30:76:97:e4:58:41:61:2a:f4:30:d3:8f:4c:e3:71:1d:14:c4:a1:4e:85:36:e3:1d:aa:2f:cb:22:b0:04:9b
+		Occultism-Mod-1.18.2.jar                          |Occultism                     |occultism                     |1.18.2-1.29.0       |DONE      |Manifest: NOSIGNATURE
+		PuzzlesLib-v3.3.2-1.18.2-Forge.jar                |Puzzles Lib                   |puzzleslib                    |3.3.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		harrypotter-1-18-2.jar                            |YDM's Harry Potter            |harrypotter                   |1.18.2-1.0          |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.18.2-3.4.1.jar                      |FallingTree                   |fallingtree                   |3.4.1               |DONE      |Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		Refined-Storage-Addons-1.18.2.jar                 |Refined Storage Addons        |refinedstorageaddons          |0.8.2               |DONE      |Manifest: NOSIGNATURE
+		Chisels-and-Bits-Mod-1.18.2.jar                   |Chisels & bits                |chiselsandbits                |1.2.83              |DONE      |Manifest: NOSIGNATURE
+		geckolib-1.18-forge-3.0.13.jar                    |GeckoLib                      |geckolib3                     |3.0.13              |DONE      |Manifest: NOSIGNATURE
+		EnchantingInfuser-v3.2.0-1.18.2-Forge.jar         |Enchanting Infuser            |enchantinginfuser             |3.2.0               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		cobbled_paths-forge-0.1.7.jar                     |Cobbled Paths                 |cobbled_paths                 |0.1.7               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 33576ef8-0712-4729-a46d-3cabf811eec3
+	FML: 40.0
+	Forge: net.minecraftforge:40.0.46
