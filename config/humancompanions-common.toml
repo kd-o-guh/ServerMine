@@ -1,7 +1,0 @@
-
-#Settings for world gen
-["world gen"]
-	#Average chunk separation between companion houses
-	#Range: > 11
-	averageHouseSeparation = 20
-
