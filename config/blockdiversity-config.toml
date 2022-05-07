@@ -1,0 +1,13 @@
+
+[Limestone]
+	#Enable/disable all limestone related blocks
+	generate = true
+
+[Basalt]
+	#Enable/disable all basalt related blocks
+	generate = true
+
+[Marble]
+	#Enable/disable all marble related blocks
+	generate = true
+
