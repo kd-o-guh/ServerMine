@@ -56,6 +56,10 @@
 		containerClass = "appeng.container.implementations.WirelessTermContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "com.mrbysco.forcecraft.container.furnace.ForceFurnaceContainer"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
@@ -108,7 +112,7 @@
 	#2 = buttons for external sorting only
 	#3 = all buttons enabled (default)
 	#Range: 0 ~ 3
-	enableButtons = 3
+	enableButtons = 0
 	#Enable auto-refill
 	autoRefill = true
 	#0 = disable sorting

@@ -1,4 +1,9 @@
 
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
 [modules]
 
 	#All of your farming options
@@ -128,19 +133,49 @@
 		[modules.transport.conveyor]
 			enabled = true
 
-		[modules.transport.conveyor_upgrades]
-			enabled = true
-
 		[modules.transport.black_hole_units]
-			enabled = true
-
-		[modules.transport.black_hole_tanks]
 			enabled = true
 
 		[modules.transport.transporters]
 			enabled = true
 
+		[modules.transport.advanced_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_unit]
+			enabled = true
+
+		[modules.transport.common_black_hole_tank]
+			enabled = true
+
 		[modules.transport.black_hole_controller]
+			enabled = true
+
+		[modules.transport.advanced_black_hole_tank]
+			enabled = true
+
+		[modules.transport.conveyor_upgrades]
+			enabled = true
+
+		[modules.transport.simple_black_hole_tank]
+			enabled = true
+
+		[modules.transport.pity_black_hole_unit]
+			enabled = true
+
+		[modules.transport.black_hole_tanks]
+			enabled = true
+
+		[modules.transport.common_black_hole_unit]
+			enabled = true
+
+		[modules.transport.pity_black_hole_tank]
+			enabled = true
+
+		[modules.transport.simple_black_hole_unit]
+			enabled = true
+
+		[modules.transport.supreme_black_hole_tank]
 			enabled = true
 
 	#A collection of Industrial Foregoing tools
@@ -163,6 +198,9 @@
 			enabled = true
 
 		[modules.tools.mob_imprisonment_tool]
+			enabled = true
+
+		[modules.tools.mob_essence_tool]
 			enabled = true
 
 		[modules.tools.infinity_saw]

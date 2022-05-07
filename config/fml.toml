@@ -1,3 +1,8 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
 # Enable forge global version checking
 versionCheck = true
 # does the splashscreen run

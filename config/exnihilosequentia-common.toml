@@ -18,7 +18,7 @@
 	barrelNumberOfBuckets = 1
 	#The max temperature a barrel can accept; water is 300 (Default: 300)
 	#Range: > 0
-	woodBarrelMaxTemp = 300
+	woodBarrelMaxTemp = 350
 	#Should Ex Nihilo show any Patricle?
 	showParticles = true
 	#How much fluid rain will fill per iteration (Default: 2)
@@ -189,7 +189,7 @@
 #Sieve Configs
 [sieve]
 	#Sieve will get results for all mesh tiers below the one in the sieve (Default: true)
-	flattenSieveRecipes = true
+	flattenSieveRecipes = false
 	#The number of sieve clicks required to sieve a block. (Default: 10)
 	#Range: 1 ~ 10
 	maxSieveClicks = 10

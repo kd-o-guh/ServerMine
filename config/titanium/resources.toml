@@ -1,8 +1,13 @@
 
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
 [modules]
 
 	[modules.resources]
-		enabled = true
+		enabled = false
 
 		[modules.resources.gold]
 

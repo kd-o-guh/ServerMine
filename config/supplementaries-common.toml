@@ -143,7 +143,7 @@
 		jar_auto_detect = false
 		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
+		drink_from_jar = true
 		#Allows the player to directly drink from jar items
 		drink_from_jar_item = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
@@ -185,7 +185,7 @@
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
 			#list of structure that a sign can point to. Note that they will only spawn in dimensions where vanilla villages can
-			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_mushroom", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin", "stoneholm:underground_village", "blue_skies:gatekeeper_house", "feywild:library", "feywild:blacksmith"]
+			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin", "stoneholm:underground_village", "blue_skies:gatekeeper_house"]
 			#Minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
 			#Range: 0 ~ 1001
 			minimum_distance = 10
@@ -281,11 +281,11 @@
 	[tweaks.placeable_books]
 		#Allows written books to be placeable (will need shift clicking)
 		written_books = false
-		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
 		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
 		#Range: 0.0 ~ 5.0
 		enchanted_book_power = 1.334
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
 		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
@@ -327,7 +327,7 @@
 	[items.slingshot]
 		#Deceleration for the stasis projectile
 		#Range: 0.1 ~ 1.0
-		stasis_deceleration = 0.9625
+		stasis_deceleration = 0.9624999761581421
 		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
