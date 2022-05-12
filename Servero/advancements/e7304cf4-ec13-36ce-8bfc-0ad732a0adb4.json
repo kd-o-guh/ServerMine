@@ -1025,6 +1025,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/notice_board": {
+    "criteria": {
+      "has_item": "2022-05-12 01:53:08 +0000"
+    },
+    "done": true
+  },
   "theabyss:strange_rem_phases": {
     "criteria": {
       "strange_rem_phases": "2022-05-07 22:28:02 +0000"
@@ -1307,6 +1313,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2022-05-12 01:53:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2022-05-08 00:00:49 +0000"
@@ -1480,6 +1492,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-05-07 22:25:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2022-05-12 01:53:08 +0000"
     },
     "done": true
   },
