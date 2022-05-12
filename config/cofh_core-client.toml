@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 
 [Tooltips]
 	#If TRUE and Advanced Tooltips are enabled (F3+H), Tags will be will be added to item tooltips if possible.

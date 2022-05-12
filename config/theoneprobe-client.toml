@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 #This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
 renderBlacklist = ["minis:mini", "industrialforegoing:transporter"]
 #The amount of milliseconds to wait before updating probe information from the server

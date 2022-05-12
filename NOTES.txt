@@ -1,0 +1,6 @@
+Notes, they can be handy sometimes! These are handy to be sure to give them a read. Darkosto's birthday wish is for you to have notes to read.
+
+- Refined Storage Disks Disappear
+Had your drives vanished? Thinking about using the cloud to backup your drives? As much as cloud backup would be great. Sadly it won't work for storage in a game, or would it?
+Now being serious, check out this issue for information that could help you. https://github.com/refinedmods/refinedstorage/issues/3094
+Note: This may or may not work for you. So, please don't report any issues regarding this unless it happens a lot.

@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 
 [CLIENT]
 	#Whether or not tracked items will have their backgrounds highlighted

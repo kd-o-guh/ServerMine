@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 
 #Client only settings, mostly things related to rendering
 [client]

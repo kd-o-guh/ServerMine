@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 
 [general]
 	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled

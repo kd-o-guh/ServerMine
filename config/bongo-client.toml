@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 #Controls the size of the bongo map.
 bongo_map_scale_factor = 1.5
 #Whether bongo should add tooltips to items in the bingo card. This may cause a short spike of lagg when a game is created.

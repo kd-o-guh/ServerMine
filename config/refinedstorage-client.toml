@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 
 [grid]
 	#Whether the Grid should use a large font for stack quantity display

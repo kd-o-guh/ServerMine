@@ -1,3 +1,9 @@
+##########
+# Copyright (c) 2022 Darkosto Entertainment LLC
+#
+# All rights reserved.
+##########
+
 #Replaces the flat cauldron sprite with the 3D cauldron block model
 betterCauldronItemModel = false
 #Colors the fireworks item based on the colors of the stars
