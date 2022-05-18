@@ -1,6 +1,6 @@
 # Don't edit these values unless you know what you are doing.
 export INSTALL_JAR="forge-1.16.5-36.2.28-installer.jar"
-export SERVER_JAR="forge-1.16.5-36.2.28.jar"
+export SERVER_JAR="forge-1.16.5-36.2.34.jar"
 # This needs to be the FULL path to the Java executable.
 export JAVA_JAR=""
 
