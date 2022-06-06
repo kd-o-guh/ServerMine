@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/diorite_chair": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/misc/tables/book_substitute": {
     "criteria": {
       "has_item": "2022-05-29 06:47:01 +0000"
@@ -711,6 +717,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/yellow_detector": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -1173,6 +1185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/mechanical_drill": {
     "criteria": {
       "has_item": "2022-05-22 06:24:48 +0000"
@@ -1221,6 +1239,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/mossy_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2022-05-29 06:55:47 +0000"
@@ -1251,6 +1275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2022-05-17 03:53:36 +0000"
@@ -1273,6 +1303,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/orange_network_receiver": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
+    "criteria": {
+      "has_chicken": "2022-06-04 04:04:20 +0000"
     },
     "done": true
   },
@@ -1390,6 +1426,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/granite_coffee_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "inspirations:recipes/cauldron/cauldron/carpet/lime": {
     "criteria": {
       "has_item": "2022-05-22 06:31:30 +0000"
@@ -1477,6 +1519,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2022-05-11 05:42:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_pillar": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -1576,6 +1624,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/andesite_pillar": {
     "criteria": {
       "has_andesite": "2022-05-21 04:06:29 +0000"
@@ -1666,6 +1720,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/overgrown_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/coloring_recipes/magenta_network_transmitter": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
@@ -1687,6 +1747,12 @@
   "create:recipes/create.base/crafting/appliances/diving_helmet": {
     "criteria": {
       "has_item": "2022-05-24 02:52:06 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/granite_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -1717,6 +1783,12 @@
   "xnet:recipes/xnet/advanced_connector_red": {
     "criteria": {
       "chest": "2022-05-12 01:01:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -1783,6 +1855,18 @@
   "inspirations:recipes/cauldron/cauldron/bed/magenta": {
     "criteria": {
       "has_item": "2022-05-08 23:21:43 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_coffee_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_cobblestone_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -1989,6 +2073,18 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stone_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/curiosities/minecart_coupling": {
     "criteria": {
       "has_item": "2022-05-21 04:06:58 +0000"
@@ -2145,6 +2241,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/granite_desk": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "xnet:recipes/xnet/advanced_connector_blue_dye": {
     "criteria": {
       "chest": "2022-05-12 01:01:19 +0000"
@@ -2214,6 +2316,12 @@
   "constructionwand:recipes/tools/iron_wand": {
     "criteria": {
       "has_item": "2022-05-12 05:06:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stone_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
     },
     "done": true
   },
@@ -2361,6 +2469,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/rock_path": {
+    "criteria": {
+      "has_stone": "2022-06-04 03:39:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2022-05-12 05:06:15 +0000"
@@ -2493,9 +2607,21 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stone_desk": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/gadgets/gadgets/piggy_backpack": {
     "criteria": {
       "has_item": "2022-05-29 06:40:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_pillar_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -2526,6 +2652,18 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/purple_crafter_manager": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/andesite_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -2568,6 +2706,12 @@
   "ironchest:recipes/ironchest/upgrades/gold_to_diamond_chest_upgrade": {
     "criteria": {
       "has_glass": "2022-05-17 03:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -2661,6 +2805,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/diorite_pillar": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/coloring_recipes/yellow_wireless_transmitter": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
@@ -2742,6 +2892,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/gray_crafter": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -2895,6 +3051,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2022-05-17 03:33:27 +0000"
@@ -2961,6 +3123,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/smelting/dolomite": {
+    "criteria": {
+      "has_item": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2022-05-29 06:55:47 +0000"
@@ -3009,6 +3177,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "chunkloaders:recipes/search/basic_chunk_loader": {
     "criteria": {
       "item": "2022-05-21 04:16:17 +0000"
@@ -3030,6 +3204,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2022-05-30 22:54:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -3393,6 +3573,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/andesite_desk": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2022-05-08 23:32:06 +0000"
@@ -3477,6 +3663,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/coloring_recipes/crafting_monitor": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
@@ -3498,6 +3690,12 @@
   "exnihilosequentia:recipes/exnihilosequentia/ens_chunk_gold": {
     "criteria": {
       "has_piece": "2022-05-28 23:21:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -3546,6 +3744,12 @@
   "exnihilosequentia:recipes/exnihilosequentia/ens_hammer_netherite": {
     "criteria": {
       "has_diamond_hammer": "2022-05-29 02:52:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -3807,6 +4011,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/granite_chair": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2022-05-17 03:45:23 +0000"
@@ -3915,6 +4125,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2022-05-11 22:41:20 +0000"
@@ -3933,6 +4149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "inspirations:recipes/cauldron/cauldron/shulker_box/green": {
     "criteria": {
       "has_item": "2022-05-21 05:10:18 +0000"
@@ -3945,6 +4167,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stone_chair": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
+    },
+    "done": true
+  },
   "inspirations:recipes/cauldron/cauldron/bed/gray": {
     "criteria": {
       "has_item": "2022-05-08 23:21:43 +0000"
@@ -3954,6 +4182,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/brown_relay": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stone_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
     },
     "done": true
   },
@@ -4014,6 +4248,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2022-05-12 05:06:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -4092,6 +4332,12 @@
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2022-05-12 01:04:31 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -4290,6 +4536,12 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2022-05-08 23:30:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -4557,6 +4809,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/andesite_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "xnet:recipes/xnet/netcable_yellow_dye": {
     "criteria": {
       "chest": "2022-05-12 01:01:19 +0000"
@@ -4602,6 +4860,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/black_grid": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_pillar_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -5141,6 +5405,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2022-05-12 05:06:15 +0000"
@@ -5207,9 +5477,21 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/granite_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "xnet:recipes/xnet/advanced_connector_blue": {
     "criteria": {
       "chest": "2022-05-12 01:01:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_cobblestone_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -5240,6 +5522,12 @@
   "tconstruct:recipes/tconstruct/general/common/materials/copper_block_from_ingots": {
     "criteria": {
       "has_item": "2022-05-12 05:06:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/granite_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -5312,6 +5600,12 @@
   "inspirations:recipes/decorations/building/rope": {
     "criteria": {
       "has_string": "2022-05-12 01:04:31 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_desk": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -5681,6 +5975,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "inspirations:recipes/decorations/building/enlightened_bush/white": {
     "criteria": {
       "has_glowstone": "2022-05-21 05:12:04 +0000"
@@ -5780,6 +6080,12 @@
   "create:recipes/create.palettes/limestone_cobblestone_slab_from_limestone_cobblestone_stonecutting": {
     "criteria": {
       "has_limestone_cobblestone": "2022-05-25 00:31:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -5887,6 +6193,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/purple_network_receiver": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stone_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
     },
     "done": true
   },
@@ -6037,6 +6349,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/magenta_crafting_monitor": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -6310,6 +6628,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/smelting/gabbro": {
+    "criteria": {
+      "has_item": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "exnihilosequentia:recipes/exnihilosequentia/ens_end_cake": {
     "criteria": {
       "has_ender_pearl": "2022-05-21 04:16:17 +0000"
@@ -6460,6 +6784,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2022-05-08 23:32:06 +0000"
@@ -6469,6 +6799,12 @@
   "inspirations:recipes/cauldron/cauldron/carpeted_trapdoor/undye": {
     "criteria": {
       "has_item": "2022-05-22 06:31:30 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stone_coffee_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 03:31:28 +0000"
     },
     "done": true
   },
@@ -6574,6 +6910,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/tables/tinkers_forge": {
     "criteria": {
       "has_item": "2022-05-12 05:06:15 +0000"
@@ -6654,6 +6996,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/green_grid": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/andesite_chair": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -6768,6 +7116,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2022-05-29 07:38:42 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
     },
     "done": true
   },
@@ -7137,6 +7491,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2022-05-20 03:41:49 +0000"
@@ -7215,6 +7575,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/misc/common/flint": {
     "criteria": {
       "has_item": "2022-05-21 03:57:00 +0000"
@@ -7290,6 +7656,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2022-05-23 03:17:05 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/andesite_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -7422,6 +7794,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/cyan_grid": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/andesite_coffee_table": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -7587,9 +7965,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2022-06-04 04:31:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2022-05-12 01:03:04 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -7689,6 +8079,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/granite_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:42:45 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/heater": {
     "criteria": {
       "has_item": "2022-05-12 05:06:15 +0000"
@@ -7776,6 +8172,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/green_crafting_grid": {
     "criteria": {
       "refinedstorage:controller": "2022-05-28 04:11:53 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -7920,6 +8322,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-05-08 23:19:45 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/andesite_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
@@ -8160,6 +8568,12 @@
   "inspirations:recipes/cauldron/cauldron/carpet/red": {
     "criteria": {
       "has_item": "2022-05-22 06:31:30 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/diorite_cabinet": {
+    "criteria": {
+      "has_planks": "2022-06-04 04:31:10 +0000"
     },
     "done": true
   },
